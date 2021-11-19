@@ -12,5 +12,7 @@ namespace Droni.ConsoleApp
         public DateTime StartDate { get; }
         public DateTime EndDate { get; }
         public Aircraft aircraft { get; }
+
+        
     }
 }
