@@ -8,6 +8,8 @@ Il nostro cliente è un gestore di “flotte droni”, dal colloquio apprendiamo
 -	Un drone per volare all’interno di una missione deve essere registrato alla missione; 
 -	Un drone può partecipare a più missioni a patto che il loro span temporale non sia coincidente o intersecante; 
 
+sta funzionando
+
 ## Dominio Applicativo:
 ```
 Missione { 
