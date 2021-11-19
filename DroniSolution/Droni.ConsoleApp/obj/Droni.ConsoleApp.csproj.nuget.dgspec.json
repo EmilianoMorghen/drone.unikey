@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Unikey\\02 - BackEnd\\Droni\\DroniSolution\\Droni.ConsoleApp\\Droni.ConsoleApp.csproj": {}
+    "C:\\DroniApp\\DroniSolution\\Droni.ConsoleApp\\Droni.ConsoleApp.csproj": {}
   },
   "projects": {
-    "D:\\Unikey\\02 - BackEnd\\Droni\\DroniSolution\\Droni.ConsoleApp\\Droni.ConsoleApp.csproj": {
+    "C:\\DroniApp\\DroniSolution\\Droni.ConsoleApp\\Droni.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Unikey\\02 - BackEnd\\Droni\\DroniSolution\\Droni.ConsoleApp\\Droni.ConsoleApp.csproj",
+        "projectUniqueName": "C:\\DroniApp\\DroniSolution\\Droni.ConsoleApp\\Droni.ConsoleApp.csproj",
         "projectName": "Droni.ConsoleApp",
-        "projectPath": "D:\\Unikey\\02 - BackEnd\\Droni\\DroniSolution\\Droni.ConsoleApp\\Droni.ConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\Emiliano Morghen\\.nuget\\packages\\",
-        "outputPath": "D:\\Unikey\\02 - BackEnd\\Droni\\DroniSolution\\Droni.ConsoleApp\\obj\\",
+        "projectPath": "C:\\DroniApp\\DroniSolution\\Droni.ConsoleApp\\Droni.ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\driz\\.nuget\\packages\\",
+        "outputPath": "C:\\DroniApp\\DroniSolution\\Droni.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Emiliano Morghen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\driz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
