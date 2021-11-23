@@ -66,6 +66,8 @@ namespace Droni.ConsoleApp
             return this.Id == other.Id;
         }
 
+
+
         public override string ToString()
         {
             return $"Id mission: {Id}\n" +
