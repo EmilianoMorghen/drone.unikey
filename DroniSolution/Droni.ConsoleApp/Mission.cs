@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using 
 
 namespace Droni.ConsoleApp
 {
@@ -66,7 +67,8 @@ namespace Droni.ConsoleApp
             return this.Id == other.Id;
         }
 
-
+        public bool IsInMission(int id) => _aircrafts.Any(drone => drone.Id==id);
+        
 
         public override string ToString()
         {
