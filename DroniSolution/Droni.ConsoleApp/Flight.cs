@@ -20,5 +20,7 @@ namespace Droni.ConsoleApp
             EndDate = endDate;
             Aircraft = aircraft;
         }
+
+
     }
 }

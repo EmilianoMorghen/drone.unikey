@@ -35,9 +35,15 @@ namespace Droni.ConsoleApp
 
             else
             {
-                foreach (var f in fligths)
+                foreach (Flight f in fligths)
                 {
-                    _flights.Add(f);
+                    if (this.StartDate < f.StartDate && this.EndDate > f.EndDate)
+                    {
+                        _flights.Add(f);
+                        continue;
+                    }
+                    else
+                        return false;
                 }
                 return true;
             }

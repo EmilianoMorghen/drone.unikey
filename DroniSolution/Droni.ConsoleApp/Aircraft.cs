@@ -11,6 +11,8 @@ namespace Droni.ConsoleApp
         public int Id { get; }
         public DateTime Fligth { get; }
 
+        public List<Flight> Flights { get; } = new List<Flight>();
+    
         public enum _mechanics
         {
             fixedwing,
@@ -31,6 +33,14 @@ namespace Droni.ConsoleApp
             Fligth = fligth;
             Mechanics = mechanics;
             Pilot = pilota;
+        }
+
+        public void TryAddFlight(Flight flight)
+        {
+            if (flight == null)
+                Console.WriteLine("Il volo non è valido");
+            else
+                Flights.Add(flight);
         }
     }
 }

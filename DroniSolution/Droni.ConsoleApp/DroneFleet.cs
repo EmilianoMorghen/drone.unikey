@@ -17,5 +17,6 @@ namespace Droni.ConsoleApp
 
         public Mission? DetailsOfMission(int id) => _missions.Find(mission => mission.Id == id);
 
+
     }
 }
